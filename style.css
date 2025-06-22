@@ -9,7 +9,7 @@ body {
 }
 
 .main {
-    background-image: url("bgimg2.jpg");
+    background-image: url(assests/images/bgimg2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1300px, 110vw);
@@ -92,7 +92,7 @@ nav button {
 }
 
 .btn {
-    padding: 4px 35px;
+        padding: 4px 16px;
     background-color: rgba(0, 0, 0, 0.394);
     color: white;
     /* all --> specially english */
@@ -105,7 +105,7 @@ nav button {
 }
 
 .btn-red-sm {
-    padding: 5px 18px;
+        padding: 7px 15px;
     background-color: red;
     color: white;
     /* sign in */
@@ -183,8 +183,6 @@ section.first>div {
     display: flex;
     flex-direction: column;
     padding: 34px 0px;
-    height : 460px;
-    
 }
 
 section.first>div :nth-child(1) {
@@ -301,8 +299,8 @@ footer {
     }
 
     nav {
-        max-width: 100vw;
-        gap: 90px;
+        width: 90vw;
+        gap: 95px;
     }
 
     .btn {
@@ -321,11 +319,6 @@ section.first>div :nth-child(1) {
 }
 .main input {
     padding: 13px 16px 13px 16px;
-}
-    section.first>div {
-   
-    height : 230px;
-    
 }
 
 }
