@@ -183,6 +183,8 @@ section.first>div {
     display: flex;
     flex-direction: column;
     padding: 34px 0px;
+    height : 460px;
+    
 }
 
 section.first>div :nth-child(1) {
@@ -319,6 +321,11 @@ section.first>div :nth-child(1) {
 }
 .main input {
     padding: 13px 16px 13px 16px;
+}
+    section.first>div {
+   
+    height : 230px;
+    
 }
 
 }
